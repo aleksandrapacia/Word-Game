@@ -1,0 +1,1 @@
+letterBox = document.getElementById('letter');
