@@ -39,5 +39,8 @@ article {
     width: 60px;
     height: 60px;
     background-color: grey;
+    color: black;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
 
 }
