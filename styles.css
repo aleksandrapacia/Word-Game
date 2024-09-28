@@ -44,3 +44,10 @@ article {
     font-family: 'Courier New', Courier, monospace;
 
 }
+
+hr {
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    border-width: 50%;
+  }
