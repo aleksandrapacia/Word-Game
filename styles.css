@@ -99,3 +99,17 @@ hr {
     text-align: center;
     border-width: 50%;
   }
+
+.spiral {
+    font-size: 40px;
+    animation: spin 1.5s linear infinite;
+}
+/* hidden - takes space even though you cannot see it */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
