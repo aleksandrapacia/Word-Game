@@ -79,6 +79,20 @@ article {
 
 }
 
+.invalid {
+    animation: flash 1s;
+}
+
+@keyframes flash {
+    5% {
+        border-box: crimson;
+    }
+
+    100% {
+        border-color: #ccc;
+    }
+}
+
 hr {
     border: 3px solid black;
     border-radius: 5px;
