@@ -100,16 +100,31 @@ hr {
     border-width: 50%;
   }
 
-@keyframes 
-spin {
-    to {
-        transform: rotate(360deg);
-    }
 
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes spin { 
+    from { 
+        transform:rotate(0deg); 
+    } 
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 .spiral {
-    font-size: 40px;
-    animation: spin 10s linear infinite;
-}
+    display: inline-block;
+    animation: spin 2s linear infinite;
+  }
 /* hidden - takes space even though you cannot see it */
+
