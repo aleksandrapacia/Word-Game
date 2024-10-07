@@ -1,7 +1,7 @@
 const letters = document.querySelectorAll('letter');
 console.log(letters);
 const loadingDiv = document.querySelector('#loading');
-
+const letter = document.getElementById('letter-0');
 
 async function init() {
 
@@ -10,6 +10,16 @@ async function init() {
 
         console.log(action)
     });
+    // event listener for the letter
+    letter.addEventListener('keydown', (e) => {
+        if (e.key === '[A-Za-z]$') {
+            console.log('Enter pressed')
+            innerHTML = e.key;
+
+        }
+    });
+
+
 
     window.addEventListener('load', function() {
         
