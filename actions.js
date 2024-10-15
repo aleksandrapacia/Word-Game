@@ -1,7 +1,7 @@
 const letters = document.querySelectorAll('letter');
 console.log(letters);
 const loadingDiv = document.querySelector('#loading');
-
+const validWords = ["code", 'game']
 
 async function init() {
 
@@ -19,7 +19,17 @@ async function init() {
             }
         }, 1000) // 1 second
     });
+
+    document.querySelectorAll('.letter').forEach(input => {
+        input.addEventListener('input', handleInput);
+    });
 }
 
-
+function handleInput(event) {
+    if (event.type == "keydown") {
+        console.log(event.key);
+    }
+    
+}
 init();
+
