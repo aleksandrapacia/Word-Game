@@ -1,4 +1,4 @@
-const letters = document.querySelectorAll('letter');
+const letters = document.querySelectorAll('letter'); // letters is a list of all letter boxes !!!
 console.log(letters);
 const loadingDiv = document.querySelector('#loading');
 const validWords = ["code", 'game']
