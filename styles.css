@@ -50,7 +50,7 @@ input {
     height: 50px;
     text-align: center;
     font-size: 18px;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     border-radius: 5px;
     outline: none;
     transition: border-color 0.3s;
